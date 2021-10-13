@@ -2,6 +2,7 @@ const server        = require("gbackend");
 // const middlewares   = server.middlewares;
 server.set({
   "cache"       : 0,
+  "errorPage"   : "errorPage",
   "indexPage"   : "mainPage",
 });
 
